@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddressbookTableViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

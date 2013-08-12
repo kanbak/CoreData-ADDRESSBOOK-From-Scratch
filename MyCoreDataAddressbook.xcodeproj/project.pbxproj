@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5502DA2817B839CC00D38DFA /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5502DA2717B839CC00D38DFA /* AddPersonViewController.m */; };
+		552BD06317B8788800A8A95D /* DisplayEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552BD06217B8788800A8A95D /* DisplayEditViewController.m */; };
 		55934CF317B82D0600D1EF1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55934CF217B82D0600D1EF1C /* UIKit.framework */; };
 		55934CF517B82D0600D1EF1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55934CF417B82D0600D1EF1C /* Foundation.framework */; };
 		55934CF717B82D0600D1EF1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55934CF617B82D0600D1EF1C /* CoreGraphics.framework */; };
@@ -18,9 +20,16 @@
 		55934D0917B82D0600D1EF1C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55934D0817B82D0600D1EF1C /* Default@2x.png */; };
 		55934D0B17B82D0600D1EF1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55934D0A17B82D0600D1EF1C /* Default-568h@2x.png */; };
 		55934D0E17B82D0600D1EF1C /* MyCoreDataAddressbook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55934D0C17B82D0600D1EF1C /* MyCoreDataAddressbook.xcdatamodeld */; };
+		55934D1617B82F7F00D1EF1C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 55934D1517B82F7F00D1EF1C /* Person.m */; };
+		55934D1817B82F9800D1EF1C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55934D1717B82F9800D1EF1C /* MainStoryboard.storyboard */; };
+		55934D1B17B8306000D1EF1C /* AddressbookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55934D1A17B8306000D1EF1C /* AddressbookTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5502DA2617B839CC00D38DFA /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonViewController.h; sourceTree = "<group>"; };
+		5502DA2717B839CC00D38DFA /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonViewController.m; sourceTree = "<group>"; };
+		552BD06117B8788800A8A95D /* DisplayEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayEditViewController.h; sourceTree = "<group>"; };
+		552BD06217B8788800A8A95D /* DisplayEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayEditViewController.m; sourceTree = "<group>"; };
 		55934CEF17B82D0600D1EF1C /* MyCoreDataAddressbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCoreDataAddressbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55934CF217B82D0600D1EF1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55934CF417B82D0600D1EF1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +45,11 @@
 		55934D0817B82D0600D1EF1C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		55934D0A17B82D0600D1EF1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		55934D0D17B82D0600D1EF1C /* MyCoreDataAddressbook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCoreDataAddressbook.xcdatamodel; sourceTree = "<group>"; };
+		55934D1417B82F7F00D1EF1C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		55934D1517B82F7F00D1EF1C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		55934D1717B82F9800D1EF1C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		55934D1917B8306000D1EF1C /* AddressbookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressbookTableViewController.h; path = ../AddressbookTableViewController.h; sourceTree = "<group>"; };
+		55934D1A17B8306000D1EF1C /* AddressbookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressbookTableViewController.m; path = ../AddressbookTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +98,18 @@
 		55934CFA17B82D0600D1EF1C /* MyCoreDataAddressbook */ = {
 			isa = PBXGroup;
 			children = (
+				55934D1717B82F9800D1EF1C /* MainStoryboard.storyboard */,
+				552BD06117B8788800A8A95D /* DisplayEditViewController.h */,
+				552BD06217B8788800A8A95D /* DisplayEditViewController.m */,
+				5502DA2617B839CC00D38DFA /* AddPersonViewController.h */,
+				5502DA2717B839CC00D38DFA /* AddPersonViewController.m */,
+				55934D1917B8306000D1EF1C /* AddressbookTableViewController.h */,
+				55934D1A17B8306000D1EF1C /* AddressbookTableViewController.m */,
 				55934D0317B82D0600D1EF1C /* AppDelegate.h */,
 				55934D0417B82D0600D1EF1C /* AppDelegate.m */,
 				55934D0C17B82D0600D1EF1C /* MyCoreDataAddressbook.xcdatamodeld */,
+				55934D1417B82F7F00D1EF1C /* Person.h */,
+				55934D1517B82F7F00D1EF1C /* Person.m */,
 				55934CFB17B82D0600D1EF1C /* Supporting Files */,
 			);
 			path = MyCoreDataAddressbook;
@@ -161,6 +184,7 @@
 				55934D0717B82D0600D1EF1C /* Default.png in Resources */,
 				55934D0917B82D0600D1EF1C /* Default@2x.png in Resources */,
 				55934D0B17B82D0600D1EF1C /* Default-568h@2x.png in Resources */,
+				55934D1817B82F9800D1EF1C /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +198,10 @@
 				55934D0117B82D0600D1EF1C /* main.m in Sources */,
 				55934D0517B82D0600D1EF1C /* AppDelegate.m in Sources */,
 				55934D0E17B82D0600D1EF1C /* MyCoreDataAddressbook.xcdatamodeld in Sources */,
+				55934D1617B82F7F00D1EF1C /* Person.m in Sources */,
+				55934D1B17B8306000D1EF1C /* AddressbookTableViewController.m in Sources */,
+				5502DA2817B839CC00D38DFA /* AddPersonViewController.m in Sources */,
+				552BD06317B8788800A8A95D /* DisplayEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +316,7 @@
 				55934D1317B82D0600D1EF1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
